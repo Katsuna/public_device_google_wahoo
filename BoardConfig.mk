@@ -31,7 +31,7 @@ TARGET_2ND_CPU_VARIANT := cortex-a73
 # Kernel
 KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-android-
 TARGET_KERNEL_SOURCE := kernel/google/wahoo
-TARGET_KERNEL_CONFIG := custom_defconfig
+TARGET_KERNEL_CONFIG := katsuna_defconfig
 TARGET_KERNEL_ARCH := arm64
 BOARD_KERNEL_IMAGE_NAME := Image.lz4-dtb
 # Tell HALs that we're compiling an AOSP build with an in-line kernel
